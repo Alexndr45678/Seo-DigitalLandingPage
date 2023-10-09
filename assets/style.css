@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    background-color: #222;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    display: flex;
+    gap: 41px;
+    margin-left: 240px;
+    align-items: center;
+}
+
+.icon_search {
+    width: 26px;
+    height: 26px;
+}
+
+.icon_navigation {
+    margin-right: 240px;
+    width: 159px;
+    height: 29px;
+}
+
+.intro {
+    background: #F1E4E6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-item {
+    display: flex;
+}
+
+.intro-right {
+    display: flex;
+    align-items: center;
+}
+
+.text__intro-right {
+    margin: 0;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    font-size: 32px;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 65px;
+}
+
+.card_for_woman {
+    position: relative;
+    text-align: center;
+}
+
+.card_for_men {
+    position: relative;
+    text-align: center;
+}
+
+.card_for_kids {
+    position: relative;
+    text-align: center;
+}
+
+.card_for_accesories {
+    text-align: center;
+    position: relative;
+    grid-column: span 3;
+    height: 180px;
+}
+
+.offer-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.text_card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-text_card {
+    font-size: 24px;
+    color: #F16D7F;
+}
