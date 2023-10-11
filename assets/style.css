@@ -10,14 +10,18 @@ header {
     display: flex;
     background-color: #222;
     height: 75px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
 }
+
+/* .header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+} */
 
 .logo-header {
     display: flex;
     gap: 41px;
-    margin-left: 240px;
     align-items: center;
 }
 
@@ -27,7 +31,6 @@ header {
 }
 
 .icon_navigation {
-    margin-right: 240px;
     width: 159px;
     height: 29px;
 }
@@ -40,6 +43,7 @@ header {
 
 .intro-item {
     display: flex;
+    gap: 64px;
 }
 
 .intro-right {
@@ -63,17 +67,7 @@ header {
     margin-bottom: 96px;
 }
 
-.card_for_woman {
-    position: relative;
-    text-align: center;
-}
-
-.card_for_men {
-    position: relative;
-    text-align: center;
-}
-
-.card_for_kids {
+.card {
     position: relative;
     text-align: center;
 }
@@ -83,6 +77,15 @@ header {
     position: relative;
     grid-column: span 3;
     height: 180px;
+}
+
+.card-bg {
+    background: rgba(33, 22, 22, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .offer-item {
